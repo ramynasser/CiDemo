@@ -7,3 +7,8 @@
 //
 
 import Foundation
+class Converter {
+    static func convert(_ number: Int) -> String {
+        return "I"
+    }
+}

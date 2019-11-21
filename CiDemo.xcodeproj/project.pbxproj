@@ -14,6 +14,8 @@
 		CF1D44CD23868D21006A496A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1D44CB23868D21006A496A /* LaunchScreen.storyboard */; };
 		CF1D44D823868D21006A496A /* CiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D44D723868D21006A496A /* CiDemoTests.swift */; };
 		CF1D44E323868D21006A496A /* CiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D44E223868D21006A496A /* CiDemoUITests.swift */; };
+		CF1D44F123868D2F006A496A /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D44F023868D2F006A496A /* Converter.swift */; };
+		CF1D44F323868F70006A496A /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D44F223868F70006A496A /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CF1D44DE23868D21006A496A /* CiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1D44E223868D21006A496A /* CiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiDemoUITests.swift; sourceTree = "<group>"; };
 		CF1D44E423868D21006A496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1D44F023868D2F006A496A /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		CF1D44F223868F70006A496A /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				CF1D44C923868D21006A496A /* Assets.xcassets */,
 				CF1D44CB23868D21006A496A /* LaunchScreen.storyboard */,
 				CF1D44CE23868D21006A496A /* Info.plist */,
+				CF1D44F023868D2F006A496A /* Converter.swift */,
 			);
 			path = CiDemo;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				CF1D44D723868D21006A496A /* CiDemoTests.swift */,
 				CF1D44D923868D21006A496A /* Info.plist */,
+				CF1D44F223868F70006A496A /* ConverterTests.swift */,
 			);
 			path = CiDemoTests;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1D44F123868D2F006A496A /* Converter.swift in Sources */,
 				CF1D44C523868D1F006A496A /* ViewController.swift in Sources */,
 				CF1D44C323868D1F006A496A /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1D44F323868F70006A496A /* ConverterTests.swift in Sources */,
 				CF1D44D823868D21006A496A /* CiDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

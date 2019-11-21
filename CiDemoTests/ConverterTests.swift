@@ -1,5 +1,5 @@
 //
-//  CiDemoTests.swift
+//  ConverterTests.swift
 //  CiDemoTests
 //
 //  Created by Ramy Nasser on 11/21/19.
@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import CiDemo
 
-class CiDemoTests: XCTestCase {
+class ConverterTests: XCTestCase {
+
     var converter: Converter!
     
     override func setUp() {
