@@ -10,20 +10,17 @@ import XCTest
 @testable import CiDemo
 
 class CiDemoTests: XCTestCase {
-    var converter: Converter!
     
     override func setUp() {
         super.setUp()
-        converter = Converter()
     }
     
     override func tearDown() {
-        converter = nil
         super.tearDown()
     }
     
     func testConversionForOne() {
-        let result = converter.convert(1)
+        let result = Converter.convert(3)
         XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
     }
 
