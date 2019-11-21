@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import CiDemo
 
 class ConverterTests: XCTestCase {
 
