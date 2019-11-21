@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CiDemoUITests.xctest' tests='3' failures='0'>
+  <testsuite name='CiDemoTests.CiDemoTests' tests='1' failures='0'>
+    <testcase classname='CiDemoTests.CiDemoTests' name='testConversionForOne' time='0.002'/>
+  </testsuite>
+  <testsuite name='CiDemoTests.ConverterTests' tests='1' failures='0'>
+    <testcase classname='CiDemoTests.ConverterTests' name='testConversionForOne' time='0.001'/>
+  </testsuite>
+  <testsuite name='CiDemoUITests.CiDemoUITests' tests='1' failures='0'>
+    <testcase classname='CiDemoUITests.CiDemoUITests' name='testExample' time='2.378'/>
+  </testsuite>
+</testsuites>
